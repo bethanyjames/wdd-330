@@ -1,7 +1,7 @@
 const links = [
   {
     label: "Week 01",
-    url: "C:/Users/DELL/Desktop/Winter2022/WDD330/wdd-330/W01/index.html"
+    url: "W01/index.html"
   }
 ]
 
