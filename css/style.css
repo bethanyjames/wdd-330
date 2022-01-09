@@ -1,0 +1,96 @@
+/******************* PHONE *******************/
+body {
+    background-color:#f3f2eb;
+}
+
+h1 {
+    font-size: 600%;
+    font-family: 'Megrim', cursive;
+    text-align: center;
+    letter-spacing: 10px;
+    font-weight: bolder;
+    color: rgb(230, 230, 218);
+    background-color: #f3f2eb;
+    text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
+}
+
+ol {
+    margin-top: 130px;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    overflow: hidden;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+a {
+    display: block;
+    color: gray;
+    text-decoration: none;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+a:hover {
+    color: #ffafcc;
+}
+
+p {
+    font-family: 'Montserrat', sans-serif;
+    color: gray;
+}
+
+
+
+.grid {
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr;
+}
+
+
+
+/******************* TABLET *******************/
+@media only screen and (min-width:42em) {
+
+    h1 {
+        font-size: 550%;
+        text-align: center;
+    }
+
+}
+
+
+/******************* DESKTOP *******************/
+@media only screen and (min-width:55em) {
+
+    body {
+        overflow: hidden;
+    }
+
+
+    h1 {
+        font-size: 750%;
+        text-align: center;
+        letter-spacing: 20px;
+        padding-top: 10%;
+    }
+
+    .grid {
+        display: inline-block;
+        justify-items: center;
+    }
+    ol {
+        margin-left: 5%;
+    }
+
+    a {
+        float: left;
+        display: block;
+        padding: 20px;
+    }
+
+
+}
