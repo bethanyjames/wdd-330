@@ -79,15 +79,6 @@ p {
         letter-spacing: 10px;
         padding-top: 3%;
     }
-
-    img {
-        margin-left: auto;
-        margin-right: auto;
-        display: block;
-        padding-bottom: 5%;
-        width: 40%;
-    }
-
     .grid {
         display: inline-block;
         justify-items: center;
